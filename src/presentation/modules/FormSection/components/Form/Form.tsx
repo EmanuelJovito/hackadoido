@@ -3,7 +3,7 @@ import * as S from "./Form.styled";
 export function Form() {
   return (
     <S.Container>
-      <S.Form>
+      <S.Form id="Formulario">
         <S.Title>Preencha o formulario</S.Title>
         <S.Span>Seja um apoiador</S.Span>
         <S.Fieldset>
