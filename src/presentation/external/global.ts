@@ -35,15 +35,4 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
   }
 
-  @media (max-width: 720px) {
-    html {
-      font-size: 50%;
-    }
-  }
-
-  @media (max-width: 430px) {
-    html {
-      font-size: 43.75%;
-    }
-  }
 `;
