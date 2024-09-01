@@ -11,7 +11,7 @@ export default function Home() {
       <GlobalStyle />
       <HeroSection />
       <AboutStation />
-      <WorkshopsSection />
+      {/* <WorkshopsSection /> */}
       <FormSection />
     </main>
   );
