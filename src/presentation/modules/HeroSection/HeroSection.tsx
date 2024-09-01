@@ -1,7 +1,6 @@
 "use client";
 import * as S from "./HeroSection.styled";
 import Mask from "@/../public/Mask group.svg";
-import { useState } from "react";
 import background from "@/../public/background.svg";
 import ArrowRight from "@/../public/ArrowRight.svg";
 import LogoEstacao from "@/../public/logoEstacaoTech.svg";
