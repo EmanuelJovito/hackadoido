@@ -20,7 +20,9 @@ export function HeroSection() {
           <S.Nav>
             <a href="">Início</a>
             <a href="">Pilares</a>
-            <a href="">Diferenciais</a>
+            <a href="">Estações</a>
+            <a href="">Oficinas</a>
+            <a href="">Contato</a>
           </S.Nav>
         </S.Header>
         <S.HeroSection>
@@ -37,18 +39,18 @@ export function HeroSection() {
           <S.CardContainer>
             <S.Card>
               <S.Icon src={Rocket} alt=""></S.Icon>
-              <S.Number>25</S.Number>
-              <S.ShortText>startups apoiadas</S.ShortText>
+              <S.Number>60%</S.Number>
+              <S.ShortText>Redução de IRPJ e CSLL</S.ShortText>
             </S.Card>
             <S.Card>
               <S.Icon src={IconPeople} alt=""></S.Icon>
-              <S.Number>9</S.Number>
+              <S.Number>20</S.Number>
               <S.ShortText>Estações Tech - Maranhão</S.ShortText>
             </S.Card>
             <S.Card>
               <S.Icon src={Clarity} alt=""></S.Icon>
-              <S.Number>98</S.Number>
-              <S.ShortText>projetos bem-sucedidos</S.ShortText>
+              <S.Number>100+</S.Number>
+              <S.ShortText>Alunos capacitados</S.ShortText>
             </S.Card>
           </S.CardContainer>
           <S.LawContainer>
