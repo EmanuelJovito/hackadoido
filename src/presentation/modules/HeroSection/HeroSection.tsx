@@ -28,7 +28,7 @@ export function HeroSection() {
           <S.Title>Transforme Vidas no Maranhão com a Estação Tech</S.Title>
           <S.Span>
             Apoie a capacitação de comunidades no Maranhão com cursos que
-            transformam vidas. Como parceiro pela "Lei do Bem", sua empresa
+            transformam vidas. Como parceiro pela Lei do Bem, sua empresa
             contribui para a inclusão social e ainda recebe incentivos fiscais.
             Junte-se a nós e faça a diferença!
           </S.Span>
