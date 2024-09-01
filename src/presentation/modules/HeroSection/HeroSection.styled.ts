@@ -102,6 +102,11 @@ export const Btn = styled.button`
   gap: 0.6rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  cursor: pointer;
+`;
+export const A = styled.a`
+  text-decoration: none;
 `;
 export const Arrow = styled(Image)``;
 export const LogoTech = styled(Image)`

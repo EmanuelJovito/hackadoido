@@ -33,9 +33,11 @@ export function HeroSection() {
             contribui para a inclusão social e ainda recebe incentivos fiscais.
             Junte-se a nós e faça a diferença!
           </S.Span>
-          <S.Btn>
-            Seja um parceiro<S.Arrow src={ArrowRight} alt=""></S.Arrow>
-          </S.Btn>
+          <S.A href="#Formulario">
+            <S.Btn>
+              Seja um parceiro<S.Arrow src={ArrowRight} alt=""></S.Arrow>
+            </S.Btn>
+          </S.A>
           <S.CardContainer>
             <S.Card>
               <S.Icon src={Rocket} alt=""></S.Icon>
