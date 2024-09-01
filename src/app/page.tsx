@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <GlobalStyle />
-      <HeroSection></HeroSection>
+      <HeroSection />
     </main>
   );
 }
