@@ -10,7 +10,7 @@ export const Background = styled.div`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 135.1rem;
+  height: 125.1rem;
   object-fit: cover;
   z-index: -1;
   background-color: #021850;
