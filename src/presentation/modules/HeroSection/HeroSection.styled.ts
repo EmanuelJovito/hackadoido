@@ -51,6 +51,7 @@ export const Nav = styled.nav`
   @media (max-width: 768px) {
     font-size: 1.2rem;
     font-weight: 500;
+    display: none;
   }
 `;
 export const Logo = styled(Image)`
