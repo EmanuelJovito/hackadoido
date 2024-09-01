@@ -5,7 +5,7 @@ export function Form() {
     <S.Container>
       <S.Form>
         <S.Title>Preencha o formulario</S.Title>
-        <S.Span>seja um apoiador</S.Span>
+        <S.Span>Seja um apoiador</S.Span>
         <S.Fieldset>
           <S.Input
             placeholder="Nome do responsável"

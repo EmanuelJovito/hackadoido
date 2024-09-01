@@ -14,12 +14,14 @@ export const Span = styled.span`
 `;
 
 export const Container = styled.section`
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Form = styled.form`
-  position: absolute;
-  margin-top: 25rem;
+  position: relative;
+  margin-top: 20rem;
   right: 2;
   display: flex;
   flex-direction: column;
@@ -30,6 +32,9 @@ export const Form = styled.form`
   box-shadow: 0px 1px 8px 3px #0000002e;
   border-radius: 18px;
   background-color: white;
+  @media (max-width: 768px) {
+    width: 33rem;
+  }
 `;
 
 export const Fieldset = styled.fieldset`
