@@ -41,9 +41,11 @@ export const ImageTag = styled.div`
   @media (max-width: 768px) {
     left: 190px;
   }
-  @media (max-width: 720px) {
-    left: 152px;
+  @media (max-width: 719px) {
+    display: none;
   }
+  
+
   @media (max-width: 430px) {
     display: none;
   }
