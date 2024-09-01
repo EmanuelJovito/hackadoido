@@ -1,18 +1,44 @@
 "use client";
 
 import { styled } from "styled-components";
+import Image from "next/image";
+export const BackgroundCircle = styled(Image)`
+  position: absolute;
+  bottom: 100;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+  @media (max-width: 768px) {
+    overflow: hidden;
+  }
+`;
+export const Title = styled.h1`
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #021850;
+`;
+export const Span = styled.span`
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #021850;
+`;
 
 export const Container = styled.section`
   width: 100%;
 `;
 
 export const Form = styled.form`
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
-  width: 64.1rem;
+  width: 50.1rem;
+  gap: 1.8rem;
   padding: 4.8rem;
-  box-shadow: ;
+  box-shadow: 0px 1px 8px 3px #0000002e;
+  border-radius: 18px;
+  background-color: white;
 `;
 
 export const Fieldset = styled.fieldset`
@@ -41,12 +67,4 @@ export const Button = styled.button`
   padding-left: 1.7rem;
   background-color: #021850;
   color: white;
-`;
-
-export const Span = styled.span`
-  margin-top: -5px;
-  display: flex;
-  justify-content: end;
-  font-size: 1.4rem;
-  font-weight: 700;
 `;

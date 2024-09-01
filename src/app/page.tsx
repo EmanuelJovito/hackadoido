@@ -9,8 +9,8 @@ export default function Home() {
     <main>
       <GlobalStyle />
       <HeroSection />
-      <FormSection />
       <AboutStation />
+      <FormSection />
     </main>
   );
 }
