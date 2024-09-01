@@ -1,18 +1,7 @@
 "use client";
 
 import { styled } from "styled-components";
-import Image from "next/image";
-export const BackgroundCircle = styled(Image)`
-  position: absolute;
-  bottom: 100;
-  left: 0;
-  object-fit: cover;
-  width: 100%;
-  z-index: -1;
-  @media (max-width: 768px) {
-    overflow: hidden;
-  }
-`;
+
 export const Title = styled.h1`
   font-size: 2.4rem;
   font-weight: 700;
@@ -29,7 +18,9 @@ export const Container = styled.section`
 `;
 
 export const Form = styled.form`
-  margin-top: 10rem;
+  position: absolute;
+  margin-top: 25rem;
+  right: 2;
   display: flex;
   flex-direction: column;
   gap: 1.1rem;

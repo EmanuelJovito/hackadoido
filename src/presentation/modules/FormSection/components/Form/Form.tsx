@@ -1,10 +1,8 @@
 import * as S from "./Form.styled";
-import Efect from "@/../public/effects (1).svg";
 
 export function Form() {
   return (
     <S.Container>
-      <S.BackgroundCircle src={Efect} alt="" />
       <S.Form>
         <S.Title>Preencha o formulario</S.Title>
         <S.Span>seja um apoiador</S.Span>
