@@ -6,4 +6,3 @@ export const cardContent = styled.div`
   height: 500px;
   border-radius: 24px;
 `
-export const card
